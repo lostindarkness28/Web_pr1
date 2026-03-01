@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВЕС Приморська — Енергія Вітру</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logo-circle me-3"></div>
+                <div class="brand-text">
+                    <div class="main-title">Вітрова електростанція</div>
+                    <div class="sub-title">"ПРИМОРСЬКА"</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav-link" href="#about">Про об’єкт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav-link" href="#params">Технічні параметри</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav-link" href="#scheme">Схема</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-nav-link" href="#contacts">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="main-hero-title">
+                Вітрова електростанція<br>
+                <span class="highlight-green">«Приморська»</span>
+            </h1>
+            <p class="hero-description">Сучасна енергія вітру для сталого майбутнього України</p>
+            <a href="#about" class="btn btn-hero-action">Дізнатися більше</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Про об'єкт</h2>
+            
+            <p class="section-intro mx-auto mb-5">
+                Вітрова електростанція «Приморська» — це сучасний енергетичний комплекс, який забезпечує виробництво екологічно чистої електроенергії для тисяч домогосподарств.
+            </p>
+
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card h-100 shadow-sm">
+                        <div class="icon-wrapper blue-icon mb-3">
+                            <i class="bi bi-wind"></i>
+                        </div>
+                        <h3>Відновлювальна енергія</h3>
+                        <p>Використання вітру як необмеженого джерела енергії для виробництва електрики</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-card h-100 shadow-sm">
+                        <div class="icon-wrapper green-icon mb-3">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C7.03 2 3 6.03 3 11C3 15.97 7.03 20 12 20C12.55 20 13 19.55 13 19C13 18.45 12.55 18 12 18C8.13 18 5 14.87 5 11C5 7.13 8.13 4 12 4C15.87 4 19 7.13 19 11C19 13.89 17.29 16.37 14.84 17.51C14.34 17.74 14 18.25 14 18.8V21C14 21.55 14.45 22 15 22H17C17.55 22 18 21.55 18 21V19.82C20.4 18.73 22 16.3 22 13.5C22 8.36 17.64 4.2 12.5 4.02C12.34 4.01 12.17 4 12 4ZM15 11C15 12.66 13.66 14 12 14C10.34 14 9 12.66 9 11C9 9.34 10.34 8 12 8C13.66 8 15 9.34 15 11Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>Екологічність</h3>
+                        <p>Нульові викиди CO2 та повна відсутність забруднення навколишнього середовища.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-card h-100 shadow-sm">
+                        <div class="icon-wrapper orange-icon mb-3">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+                        <h3>Високий ККД</h3>
+                        <p>Сучасні турбіни з коефіцієнтом корисної дії понад 45%</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="feature-card h-100 shadow-sm">
+                        <div class="icon-wrapper darkblue-icon mb-3">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h3>Стабільність</h3>
+                        <p>Забезпечення надійного енергопостачання регіону протягом року</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="innovation" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="photo-box">
+                        <img src="images/main-photo.jpg" alt="Приморська ВЕС" class="img-fluid main-img-style rounded-4 shadow">
+                    </div>
+                </div>
+                <div class="col-lg-7 ps-lg-5">
+                    <h2 class="section-title mb-4">Інноваційні технології</h2>
+                    <div class="innovation-text">
+                        <p>Вітрова електростанція «Приморська» є одним із найбільших об’єктів відновлюваної енергетики України. Вона розташована у прибережній частині Запорізької області, де сприятливі кліматичні умови забезпечують стабільні та потужні вітрові потоки. Проєкт було реалізовано в межах державної стратегії розвитку зеленої енергетики, а будівництво здійснювалося поетапно із застосуванням сучасних технологій і міжнародних стандартів безпеки. Введення станції в експлуатацію стало важливим кроком у зміцненні енергетичної незалежності регіону та країни загалом.</p>
+                        <p>Основне призначення ВЕС «Приморська» — виробництво екологічно чистої електроенергії шляхом використання енергії вітру. Принцип роботи базується на перетворенні кінетичної енергії повітряних мас у механічну, а згодом — у електричну за допомогою генератора. Отримана електроенергія через трансформаторні підстанції подається до загальної енергомережі. Станція оснащена сучасними турбінами великої потужності та автоматизованими системами керування, які забезпечують контроль за швидкістю вітру, навантаженням і технічним станом обладнання.</p>
+                        <p>ВЕС «Приморська» має важливе значення для енергосистеми України, адже сприяє зменшенню викидів парникових газів і зниженню залежності від викопних видів палива. Використання інноваційних технологій дозволяє забезпечувати електроенергією тисячі домогосподарств і підприємств. Перевагами станції є екологічність, відновлюваність ресурсу, довгострокова економічна ефективність та позитивний вплив на розвиток регіону.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="params" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Технічні параметри</h2>
+            
+            <div class="table-outer-box mb-5 shadow-sm">
+                <table class="custom-param-table w-100">
+                    <thead>
+                        <tr>
+                            <th>Параметр</th>
+                            <th>Значення</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="param-label">Номінальна потужність</td><td>~200 МВт</td></tr>
+                        <tr><td class="param-label">Напруга (всі рівні)</td><td>0,69 кВ / 35 кВ / 110 кВ</td></tr>
+                        <tr><td class="param-label">Рік введення в експлуатацію</td><td>2019–2020</td></tr>
+                        <tr><td class="param-label">Тип обладнання</td><td>Вітрові турбіни з горизонтальною віссю</td></tr>
+                        <tr><td class="param-label">Кількість агрегатів</td><td>50+ вітрових турбін</td></tr>
+                        <tr><td class="param-label">Система управління</td><td>Автоматизована система SCADA</td></tr>
+                        <tr><td class="param-label">Режим роботи</td><td>Автоматичний (вітер 3–25 м/с)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="stat-card card-blue shadow-sm">
+                        <div class="stat-value">150</div>
+                        <div class="stat-label">МВт загальної потужності</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card card-green shadow-sm">
+                        <div class="stat-value">420</div>
+                        <div class="stat-label">ГВт·год річної генерації</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card card-orange shadow-sm">
+                        <div class="stat-value">120K</div>
+                        <div class="stat-label">Домогосподарств живиться</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="scheme" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Схема об’єкту</h2>
+            
+            <div class="scheme-outer-box shadow mb-5">
+                <img src="images/shema1.jpg" alt="Схема ВЕС" class="scheme-img">
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="info-mini-card shadow-sm">
+                        <div class="info-val blue-text">250 га</div>
+                        <div class="info-lab">Загальна площа території</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-mini-card shadow-sm">
+                        <div class="info-val green-text">5 × 10</div>
+                        <div class="info-lab">Розміщення турбін (рядів × колонок)</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-mini-card shadow-sm">
+                        <div class="info-val orange-text">400 м</div>
+                        <div class="info-lab">Відстань між турбінами</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="infrastructure-box p-4 shadow-sm">
+                <h3 class="infra-title mb-4">Інфраструктура комплексу</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="infra-subtitle">Основні об'єкти:</p>
+                        <ul class="infra-list">
+                            <li>50 вітрових турбін потужністю 3 МВт кожна</li>
+                            <li>Підстанція 110 кВ для трансформації напруги</li>
+                            <li>Система кабельних ліній між турбінами</li>
+                            <li>Центр управління та моніторингу</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="infra-subtitle">Додаткова інфраструктура:</p>
+                        <ul class="infra-list">
+                            <li>Під’їзні дороги з твердим покриттям</li>
+                            <li>Система освітлення території</li>
+                            <li>Адміністративно-побутовий корпус</li>
+                            <li>Склад запасних частин та обладнання</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts" class="footer-section">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="footer-brand d-flex align-items-center">
+                        <div class="logo-circle-small me-3"></div>
+                        <div>
+                            <h4 class="footer-main-title mb-0">Вітрова електростанція</h4>
+                            <p class="footer-sub-title mb-0">“ПРИМОРСЬКА”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="contact-header mb-4">Контактна інформація</h4>
+                    <div class="contact-details">
+                        <p><i class="bi bi-geo-alt me-2"></i> <strong>Адреса:</strong> Запорізька область, Україна</p>
+                        <p><i class="bi bi-telephone me-2"></i> <strong>Телефон:</strong> +38 (061) 000-00-00</p>
+                        <p><i class="bi bi-envelope me-2"></i> <strong>Email:</strong> info@primorska-wind.ua</p>
+                        <p><i class="bi bi-clock me-2"></i> <strong>Графік роботи:</strong> Пн–Пт, 09:00–18:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom border-top border-light border-opacity-25 pt-4 pb-3">
+                <p class="mb-0 text-center text-md-start">© 2026 Вітрова електростанція «Приморська». Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
